@@ -7,6 +7,7 @@ public class Playground {
         var rwx = new RWX();
         BooleanArray ba = new BooleanArray(10);
         RGBA rgb = new RGBA();
+        IPv4Address iPv4Address = new IPv4Address();
 
         System.out.println();
     }
