@@ -8,6 +8,7 @@ public class Playground {
         BooleanArray ba = new BooleanArray(10);
         RGBA rgb = new RGBA();
         IPv4Address iPv4Address = new IPv4Address();
+        Calculator calculator = new Calculator();
 
         System.out.println();
     }
