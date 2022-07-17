@@ -31,6 +31,10 @@ public class RGBA {
         return Arrays.stream(Component.values()).map(it -> "%s:%d".formatted(it, getComponent(it))).collect(Collectors.joining(", "));
     }
 
+    public String toHexString() {
+        return "#%08X".formatted(color);
+    }
+
     enum Component {
         RED(3), GREEN(2), BLUE(1), ALPHA(0);
 
