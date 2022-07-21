@@ -25,9 +25,9 @@ public class Calculator {
 
     public int bitCount(int number) {
         int c = 0;
-        while (number > 0) {
+        while (number != 0) {
             c += (number & 1);
-            number >>= 1;
+            number >>>= 1;
         }
         return c;
     }
