@@ -26,8 +26,7 @@ public class Calculator {
     public int bitCount(int number) {
         int c = 0;
         while (number > 0) {
-            if ((number & 1) == 1)
-                c++;
+            c += (number & 1);
             number >>= 1;
         }
         return c;
